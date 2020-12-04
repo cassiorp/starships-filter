@@ -1,0 +1,5 @@
+server:
+  port: 8081
+
+api:
+  starwars: "https://swapi.dev/api"
