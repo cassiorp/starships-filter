@@ -18,6 +18,7 @@ public class StarshipsController {
         return this.starshipsService.getAllStarships(page);
     }
 
+
     @GetMapping(value = "/all")
     public ResultResponse getAllStarchipsWithoutPagination(){
         return this.starshipsService.getAllStarshipsWithoutPagination();
